@@ -1,0 +1,6 @@
+api_url: "http://my.teamcityserver/httpAuth/app/rest/"
+http_user: "admin"
+http_password: "correct horse battery staple"
+repositories:
+  teamcity_swaggest_repo_ever: Swaggest_Repo_Ever
+  teamcity_also_pretty_swag: Also_Swag
