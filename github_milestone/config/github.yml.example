@@ -1,0 +1,4 @@
+token: YOUR_GITHUB_TOKEN
+repositories:
+  github_milestone_some_project: DefactoSoftware/some-project
+  github_milestone_other_project: DefactoSoftware/some-other-project
