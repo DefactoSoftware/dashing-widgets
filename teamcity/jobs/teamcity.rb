@@ -3,7 +3,7 @@ require 'teamcity'
 def update_builds(build_id)
   builds = []
 
-  build = TeamCity.builds(count: 1, buildType: build_id).first
+  build = TeamCity.build(id: TeamCity.builds(count: 1, buildType: build_id).first.id)
   date = DateTime.parse(build.startDate)
 
   build_info = {
