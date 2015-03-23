@@ -11,5 +11,5 @@ class Dashing.TeamCity extends Dashing.Widget
     @_checkStatus(data.items[0].state)
 
   _checkStatus: (status) ->
-    $(@node).removeClass('errored failed passed started')
+    $(@node).removeClass('ERROR FAILURE SUCCESS')
     $(@node).addClass(status)
