@@ -5,7 +5,6 @@ $value-color:              #FFF;
 $background-color:         #78A300;
 $background-error-color:   #EC663C;
 $background-passed-color:  #78A300;
-$background-started-color: #E7D100;
 
 $title-color:       rgba(255, 255, 255, 0.7);
 $label-color:       rgba(255, 255, 255, 0.7);
@@ -75,16 +74,12 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     color: $moreinfo-color;
   }
 
-  &.failed,
-  &.errored {
+  &.FAILURE,
+  &.ERROR {
     background-color: $background-error-color;
   }
 
-  &.started {
-    background-color: $background-started-color;
-  }
-
-  &.passed {
+  &.SUCCESS {
     background-color: $background-passed-color;
   }
 
